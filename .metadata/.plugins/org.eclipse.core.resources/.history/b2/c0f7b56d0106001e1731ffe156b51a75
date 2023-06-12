@@ -1,0 +1,14 @@
+package classes;
+
+public class main {
+
+	public static void main(String[] args) {
+		Car2 c = new Car2("M", "red");
+		System.out.println(c.speed);		
+		System.out.println(c.open);
+		c.Opened();
+		Car2.BuletProff();
+		System.out.println(c.open);
+	}
+
+}

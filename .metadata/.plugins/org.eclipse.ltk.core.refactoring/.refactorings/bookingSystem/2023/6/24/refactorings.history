@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;bookingSystem.Auth&apos; to &apos;userAuthentication&apos;&#x0D;&#x0A;- Original project: &apos;bookingSystem&apos;&#x0D;&#x0A;- Original element: &apos;bookingSystem.Auth&apos;&#x0D;&#x0A;- Renamed element: &apos;bookingSystem.userAuthentication&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Auth&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;bookingSystem{Auth.java[Auth" matchStrategy="1" name="userAuthentication" qualified="false" references="true" similarDeclarations="false" stamp="1686557822998" textual="false" version="1.0"/>
+</session>

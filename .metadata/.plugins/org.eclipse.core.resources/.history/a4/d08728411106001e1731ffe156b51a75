@@ -1,0 +1,43 @@
+package bookingSystem;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Visits {
+	public static void main(String[] args) {
+		Map<String, List<String>> map = new HashMap<>();
+
+        // Add values to the Map
+        String key = "1";
+        List<String> Rubavu = new ArrayList<>();
+        Rubavu.add("rubavu");
+        Rubavu.add("kivu");
+        Rubavu.add("17/6/2023");
+        
+        String key1 = "2";
+        List<String> Musanze = new ArrayList<>();
+        Musanze.add("Musanze");
+        Musanze.add("virunga");
+        Musanze.add("30/6/2023");
+        
+        String key2 = "3";
+        List<String> Nunga = new ArrayList<>();
+        Nunga.add("Nunga");
+        Nunga.add("Muhazi");
+        Nunga.add("20/7/2023");
+        
+        map.put(key, Rubavu);
+        map.put(key1, Musanze);
+        map.put(key2, Nunga);
+
+        // Retrieve values associated with the key
+        List<String> retrievedList = map.get("1");
+        
+        // Print the values
+        for (String fruit : retrievedList) {
+            System.out.println(fruit);
+        }
+	}
+}

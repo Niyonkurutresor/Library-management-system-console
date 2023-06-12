@@ -1,0 +1,23 @@
+package bookingSystem;
+
+public class Visits {
+	public static void main(String[] args) {
+		Map<String, List<String>> map = new HashMap<>();
+
+        // Add values to the Map
+        String key = "fruit";
+        List<String> fruitList = new ArrayList<>();
+        fruitList.add("apple");
+        fruitList.add("banana");
+        fruitList.add("orange");
+        map.put(key, fruitList);
+
+        // Retrieve values associated with the key
+        List<String> retrievedList = map.get(key);
+
+        // Print the values
+        for (String fruit : retrievedList) {
+            System.out.println(fruit);
+        }
+	}
+}

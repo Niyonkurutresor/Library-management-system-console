@@ -1,0 +1,13 @@
+import java.util.HashMap;
+public class UserAuthentication {
+	
+	public static void main(String[] args) {
+		
+		
+		 HashMap <String, String> happy = new HashMap<>();
+	        happy.put("niyonkuru","tresor");
+//	        happy.put()
+	        System.out.println(happy);
+	}
+
+}

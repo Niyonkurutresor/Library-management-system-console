@@ -1,0 +1,27 @@
+package bookingSystem;
+
+public class UserAction {
+
+	public void displayMenu() {
+        System.out.println("\nActions:");
+        System.out.println("1. Book Visit");
+        System.out.println("2. Delete Visit");
+        System.out.println("3. Edit Visit");
+        System.out.println("4. Log out");
+    }
+
+    public void bookVisit(String username) {
+        System.out.println("Booking a visit for user: " + username);
+        // Add your implementation for booking a visit
+    }
+
+    public void deleteVisit(String username) {
+        System.out.println("Deleting a visit for user: " + username);
+        // Add your implementation for deleting a visit
+    }
+
+    public void editVisit(String username) {
+        System.out.println("Editing a visit for user: " + username);
+        // Add your implementation for editing a visit
+    }
+}

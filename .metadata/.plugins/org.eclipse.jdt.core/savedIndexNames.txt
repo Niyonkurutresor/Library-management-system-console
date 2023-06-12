@@ -1,0 +1,3 @@
+INDEX VERSION 1.132+D:\T\TR4\mobile computing\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+1477326297.index
+1865797976.index

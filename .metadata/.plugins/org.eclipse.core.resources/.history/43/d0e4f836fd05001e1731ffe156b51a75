@@ -1,0 +1,7 @@
+package classes;
+
+public class Car2 {
+	static void BuletProff() {
+		System.out.println("YOur car contain's akanyamashyo");
+	}
+}

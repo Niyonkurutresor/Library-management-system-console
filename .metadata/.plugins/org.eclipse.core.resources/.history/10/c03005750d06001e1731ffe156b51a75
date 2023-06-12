@@ -1,0 +1,36 @@
+package bookingSystem;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.ArrayList;
+public class tryo {
+
+	public static void main(String[] args) {
+		Map<String, List<String>> map = new HashMap<>();
+
+        // Add values to the Map
+        String key = "fruit";
+        List<String> fruitList = new ArrayList<>();
+        fruitList.add("apple");
+        fruitList.add("banana");
+        fruitList.add("orange");
+        
+        String key1 = "fruit";
+        List<String> fruitList1 = new ArrayList<>();
+        fruitList.add("apple");
+        fruitList.add("banana");
+        fruitList.add("orange");
+        
+        map.put(key, fruitList);
+        map.put(key1, fruitList1);
+
+        // Retrieve values associated with the key
+        List<String> retrievedList = map.get(key);
+        System.out.println(retrievedList);
+        // Print the values
+        for (String fruit : retrievedList) {
+            System.out.println(fruit);
+        }
+	}
+
+}

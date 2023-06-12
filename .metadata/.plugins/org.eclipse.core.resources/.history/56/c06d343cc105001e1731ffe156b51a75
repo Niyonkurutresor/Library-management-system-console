@@ -1,0 +1,25 @@
+package strings;
+
+import java.util.Scanner;
+
+public class javaBasics {
+
+	public static void main(String[] args) {
+//		System.out.println("this is the best practice");
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.println("Enter your name");
+//		String input = scanner.nextLine();
+//		System.out.println("Hello Mr "+ input);
+		
+//		 String str = "geekss@for@geekss";
+//	        String[] arrOfStr = str.split("@");
+//	        for (String a : arrOfStr)
+//	            System.out.println(a);
+		
+		String str = "124";
+		int value = Integer.parseInt(str);
+		int k = value + 5;
+		System.out.println(k)
+	}
+
+}

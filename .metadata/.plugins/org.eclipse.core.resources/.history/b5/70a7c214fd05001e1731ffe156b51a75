@@ -1,0 +1,14 @@
+package classes;
+
+public class main {
+
+	public static void main(String[] args) {
+		car c = new car();
+		System.out.println(c.speed);		
+		System.out.println(c.open);
+		c.Opened();
+		c.close();
+		System.out.println(c.open);
+	}
+
+}

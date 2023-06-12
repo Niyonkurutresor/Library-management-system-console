@@ -1,0 +1,32 @@
+package project4;
+//import java.util.HashMap;
+//public class UserAuthentication {
+//	
+//	public static void main(String[] args) {
+//		
+//		
+//		 HashMap <String, String> happy = new HashMap<>();
+//	        happy.put("niyonkuru","tresor");
+////	        happy.put()
+//	        System.out.println(happy);
+//	}
+//
+//}
+
+
+import java.util.HashMap;
+import java.util.Scanner;
+class one {
+    public static void main(String[] args) {
+        HashMap <String, String> happy = new HashMap<>();
+        
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your name:");
+        String name = scan.nextLine();
+        System.out.println("Enter your password:");
+        String password = scan.nextLine();
+        
+        happy.put(name, password);
+        System.out.println(happy);
+    }
+}

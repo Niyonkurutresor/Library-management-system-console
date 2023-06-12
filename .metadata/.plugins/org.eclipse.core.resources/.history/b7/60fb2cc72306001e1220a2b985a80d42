@@ -1,0 +1,42 @@
+package bookingSystem;
+
+import java.util.Scanner;
+
+public class UserAction {
+
+	public void displayMenu() {
+        System.out.println("\n Wellcome on Booking visits");
+        System.out.println("1. Book Visit");
+        System.out.println("2. Edit Visit");
+        System.out.println("3. Log out");
+    }
+
+    public void bookVisit(String username) {
+    	
+        // Add your implementation for booking a visit
+        Scanner scan = new Scanner(System.in);
+        System.out.println("\n Available Visit;");
+        System.out.println("\t1.Rubavu");
+        System.out.println("\t2.Musanze");
+        System.out.println("\t3.Nunga");
+        System.out.println("\t4.Rukozo");
+        
+        Visits visit = new Visits();
+        System.out.print("\nSelect one To book Toure: ");
+        String choice = scan.nextLine();
+        
+        	visit.tour(choice);
+        System.out.println("Thank you " + username + " you book visit successfuly");
+        System.exit(0);
+    }
+
+    public void deleteVisit(String username) {
+        System.out.println("Deleting a visit for user: " + username);
+        // Add your implementation for deleting a visit
+    }
+
+    public void editVisit(String username) {
+        System.out.println("Editing a visit for user: " + username);
+        // Add your implementation for editing a visit
+    }
+}

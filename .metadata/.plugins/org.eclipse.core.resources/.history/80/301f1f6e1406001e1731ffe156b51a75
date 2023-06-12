@@ -1,0 +1,40 @@
+package bookingSystem;
+
+import java.util.Scanner;
+
+public class BookingSystem {
+
+	 public static void main(String[] args) {
+	        Auth userAuth = new Auth();
+	        Scanner scanner = new Scanner(System.in);
+
+	        while (true) {
+	            System.out.println("\n1. Sign up");
+	            System.out.println("2. Log in");
+	            System.out.println("3. Exit");
+	            System.out.print("Enter your choice: ");
+	           
+	            int choice = scanner.nextInt();
+
+	            switch (choice) {
+	                case 1:
+	                    userAuth.signUp();
+	                    break;
+	                case 2:
+	                    userAuth.logIn();
+	                    if (userAuth.currentUser != null) {
+	                        userAuth.performAction();
+	                    }
+	                    break;
+	                case 3:
+	                    System.exit(0);
+	                default:
+	                    System.out.println("Invalid choice. Please try again.");
+	                    break;
+	            }
+	        }
+	    
+	}
+
+}
+

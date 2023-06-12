@@ -1,0 +1,5 @@
+package project4;
+
+public interface HashMap<T1, T2> {
+
+}
